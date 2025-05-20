@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../style/HelpSection.css';
 
 export const HelpSection = () => (

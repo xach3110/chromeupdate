@@ -1,5 +1,4 @@
 // src/components/WhyUpdate.jsx
-import React from 'react';
 import '../style/WhyUpdate.css';
 
 const steps = [
