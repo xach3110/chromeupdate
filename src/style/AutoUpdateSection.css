@@ -1,0 +1,35 @@
+/* src/components/AutoUpdateSection.css */
+.auto-update {
+    margin-top: 70px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.auto-update__inner {
+  max-width: 1920px;                /* ограничиваем ширину текста */
+  margin: 0 auto;                  /* центрируем блок */
+  display: flex;
+  flex-direction: column;
+  align-items: center;             /* всё по центру */
+  text-align: center;
+  gap: 24px;                       /* расстояние между элементами */
+}
+
+.auto-update__logo {
+  width: 100px;                     /* размер логотипа */
+  height: auto;
+}
+
+.auto-update__title {
+  font-size: 85px;               /* примерно 40px */
+  font-weight: 700;
+  color: #292929;
+  margin: 0;
+}
+
+.auto-update__text {
+  font-size: 24px;                 /* примерно 16px */
+  color: #5f6368;
+  line-height: 1.6;
+  max-width: 1000px;                /* чтобы строка была уютной */
+}

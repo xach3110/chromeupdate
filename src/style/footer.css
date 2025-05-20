@@ -1,0 +1,152 @@
+.footer {
+  /* убираем влияние бокового padding родителя */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+   margin-bottom: -50vw;
+
+  /* теперь задаём ширину экрана целиком */
+  width: 100vw;
+
+  /* остальные ваши стили */
+  background-color: #f2f2f2;
+  color: #5f6368;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* общий контейнер для центровки и отступов */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Social row */
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 0;
+}
+
+.footer__social-text {
+  font-weight: 500;
+  color: #202124;
+}
+
+.footer__social-link img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Разделители */
+.footer__divider {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 0;
+}
+
+/* Сетка ссылок */
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 24px 0;
+  gap: 40px;
+}
+
+.footer__col {
+  flex: 1 1 160px;
+}
+
+.footer__col-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #202124;
+  margin-bottom: 12px;
+}
+
+.footer__col-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__col-list li {
+  margin-bottom: 8px;
+}
+
+.footer__col-list a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer__col-list a:hover {
+  text-decoration: underline;
+}
+
+/* Bottom row */
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.footer__brand img {
+  height: 24px;
+}
+
+/* Навигация внизу */
+.footer__nav {
+  display: flex;
+  gap: 24px;
+}
+
+.footer__nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer__nav a:hover {
+  text-decoration: underline;
+}
+
+/* Помощь и выбор языка */
+.footer__actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer__help {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer__help img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__lang {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.footer__lang-arrow {
+  font-size: 0.8em;
+  line-height: 1;
+}

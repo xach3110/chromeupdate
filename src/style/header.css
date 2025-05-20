@@ -1,0 +1,73 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;                 
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+  display: flex;                 
+  align-items: center;
+  box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;  
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;             /* центрируем по вертикали */
+  gap: 30px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 1920px;
+  /* больше НЕ задаём height: оставляем, чтобы он «тянулся» на всю высоту .header */
+}
+
+.header__logo img {
+  height: 50px;
+}
+
+.header__nav ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: #5c5c5c;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 20px;
+  padding: 10px 16px;
+  border-radius: 5px;               /* добавляем паддинг */
+}
+.header__actions {
+  margin-left: auto;               /* уводим «Скачать» вправо */
+}
+
+.header__actions .btn-download {
+  display: inline-flex;      /* вместо inline-block */
+  align-items: center;       /* вертикальное выравнивание */
+  justify-content: center;   /* горизонтальное выравнивание */
+  height: 60px;
+  padding: 0px 48px;           /* только горизонтальные паддинги */
+  background-color: #1a73e8;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+/* Отступ у body под высоту хедера */
+body {
+  padding-top: 80px;               /* совпадает с height .header */
+}
+
+
+.header__nav a:hover {
+  background-color: #5c5c5c2d;                         /* текст в чёрный */
+}
