@@ -4,6 +4,18 @@
   width: 100%;
   background-color: #fff;
 }
+.btn-download {
+  display: inline-flex;      /* вместо inline-block */
+  align-items: center;       /* вертикальное выравнивание */
+  justify-content: center;   /* горизонтальное выравнивание */
+  height: 60px;
+  padding: 0px 30px;           /* только горизонтальные паддинги */
+  background-color: #1a73e8;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+}
 
 .auto-update__inner {
   max-width: 1920px;                /* ограничиваем ширину текста */
@@ -25,10 +37,12 @@
   font-weight: 700;
   color: #292929;
   margin: 0;
+  padding-left: 150px;/* немного отступов по бокам */
+  padding-right: 150px;/
 }
 
 .auto-update__text {
-  font-size: 24px;                 /* примерно 16px */
+  font-size: 12px;                 /* примерно 16px */
   color: #5f6368;
   line-height: 1.6;
   max-width: 1000px;                /* чтобы строка была уютной */
